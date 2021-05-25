@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  border: 5px solid black;
+  width: 90%;
+  height: auto;
+  margin: 30px;
+  padding: 20px;
+  background-color: grey;
+}
+h2{
+  font-family: cursive;
+  font-size: 1.25;
+  width: 100px;
+  border: 5px solid black;
+  text-align: center;
+  height: 40px;
+  float: right;
+  margin-right: 33px;
+  position: relative;
+}
+h1{
+  font-family: fantasy ;
+  font-size: 1.75;
+  text-align: center;
+}
+
+#Beef{
+  color: #FFFFFF;
+  background-color: red;
+}
+#Chicken{
+  background-color: pink;
+}
+#Sushi{
+  background-color: yellow;
+}
+/********** desktop view **********/
+@media (min-width: 992px) {
+  .col-dv-4 {
+    float: left;
+    width: 33.33%;
+  }
+ }
+ /********** tablet view **********/
+@media (min-width: 768px ) and (max-width: 991px) {
+
+  .col-tv-6 {
+    float:left;
+    width: 50%;
+  }
+  .col-tv-12 {
+    float:left;
+    width: 100%;
+  }
+}
+/********** mobile view ******/
+@media  (max-width: 767px) {
+  .col-mv-12{
+    float: left;
+    width: 100%;
+  }
+}
